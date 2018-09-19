@@ -1,1 +1,2 @@
 # daigou
+init
