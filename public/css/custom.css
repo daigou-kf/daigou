@@ -1,0 +1,426 @@
+p.bot-nav {
+    margin-bottom: 0px;
+    font-size: 10px;
+}
+
+a.nav-color {
+    color: black;
+}
+
+.pl-c5{
+    padding-left: 3rem !important;
+}
+
+.pr-c5{
+    padding-right: 3rem !important;
+}
+
+@media screen and (max-width: 400px){
+    .pl-c5{
+        padding-left: 2rem !important;
+    }
+
+    .pr-c5{
+        padding-right: 2rem !important;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .banner img {
+        width: 100vw;
+        max-width: 100vw;
+    }
+}
+
+.modal-lg{
+    max-width: 80vw !important;
+}
+
+@media screen and (max-width: 600px) {
+    .modal-lg{
+        max-width: 100vw !important;
+    }
+}
+
+.modal-med{
+    max-width: 80vw !important;
+    margin-left: 10vw;
+}
+
+@media screen and (max-width: 600px) {
+    .modal-med{
+        max-width: 70vw !important;
+        margin-left: 15vw;
+    }
+}
+
+
+#firstshopping-banner ol{
+    margin-bottom: 0px !important;
+}
+
+#firstshopping-banner .carousel-indicators{
+    bottom: 0px !important;
+}
+
+span.limit {
+    display: block;
+    width: 60vw;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.cart-main {
+    min-height: 50vh;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+#search-tab .nav-pills .nav-link{
+    background-color: #f6f5f2;
+}
+
+#search-tab .nav-pills .nav-link.active{
+    background-color:white !important;
+}
+
+
+nav.fixed-bottom button{
+    background-color: white;
+}
+
+.profile-bg{
+    background-image: url("/daigou/storage/app/assets/me_img_background_default@2x.png");
+    background-repeat:no-repeat;
+    background-size: cover;
+    width: 100vw !important;
+    border: 0 !important;
+}
+
+#gift-coming{
+    width: 100vw;
+    margin-top: 20vh;
+
+}
+#gift-coming img{
+     width:57vw;
+ }
+
+#gift-coming-logo{
+    width:100vw;
+    margin-top:100px;
+}
+
+#gift-coming-logo img{
+    width:30vw;
+}
+
+.text-danger{
+    color: #a02e2a !important;
+}
+
+.btn-danger{
+    background-color: #a02e2a !important;
+}
+
+.btn-outline-danger{
+    border-color: #a02e2a !important;
+    color: #a02e2a !important;
+
+}
+
+.text-blue {
+    color: #666db3;
+}
+
+.btn-gold {
+    background-color: #ea9422;
+}
+
+.btn-blue {
+    background-color: #666db3;
+}
+
+.btn-lightblue{
+    background-color: #479fd8;
+}
+
+.btn-red {
+    background-color: #ee2f54;
+}
+
+#login-page {
+    width: 100vw;
+    height:100vh;
+    background-image: url("/daigou/storage/app/assets/login_img_background_default@2x.png");
+    background-repeat:no-repeat;
+    background-size: cover;
+}
+
+#admin-login-page {
+    width: 100vw;
+    height:100vh;
+    background-image: url("/daigou/public/assets/UI/staff-bg.jpg");
+    background-repeat:no-repeat;
+    background-size: cover;
+}
+
+#testing-page{
+    position: fixed;
+    right:0;
+    bottom:0;
+    min-width:100vw;
+    width:100vw;
+    min-height:100vh;
+    height:100vh;
+    object-fit: fill;
+
+}
+
+#testing-section{
+    position:fixed;
+    top: 38vh;
+    height: 45vh;
+
+}
+
+#login-logo{
+    padding-top: 10vh;
+}
+
+#login-logo img{
+    width:40%;
+}
+
+.mt-vh-30{
+    margin-top: 30vh;
+}
+
+.ml-vw-12{
+    margin-left: 12vw;
+}
+
+.mr-vw-12{
+    margin-right: 12vw;
+}
+
+.container-vw-76{
+    width: 76vw;
+}
+
+div.text-nav{
+    width: initial !important;
+    max-width: initial !important;
+    overflow: auto;
+    white-space: nowrap;
+}
+
+div.text-nav a{
+    display:inline-block;
+}
+
+div.text-nav a.current {
+    color: #a02e2a !important;
+    border-bottom: #a02e2a 3px solid;
+}
+
+.cate-img {
+    width: 25vw;
+    height: 25vw;
+}
+
+.text-grey {
+    color: grey;
+}
+
+.text-gold{
+    font-family:KaiTi;
+    font-size:20px;
+    font-weight:600;
+    border-color: #b7995a;
+    background-color:#b7995a
+}
+
+.bg-gold{
+    background-color:#FDAB58;
+}
+
+.bg-gold:focus{
+    background-color:#FDAB58;
+}
+
+.bg-gold:hover{
+    background-color:#FDAB58;
+}
+
+.text-red{
+    color: #973330;
+    border-color: #973330;
+}
+
+.bg-danger{
+    background-color: #973330 !important;
+}
+
+.btn.bg-danger:focus{
+    background-color: #973330 !important;
+}
+
+.btn.bg-danger:hover{
+    background-color: #973330 !important;
+}
+
+#welcome-message .modal-body{
+    padding: 0 !important;
+}
+
+#welcome-message .modal-content{
+    border-radius: .9rem !important;
+}
+
+#welcome-message .btn-block{
+    border-top-left-radius: .3rem !important;
+    border-top-right-radius: .3rem !important;
+    border-bottom-left-radius: .8rem !important;
+    border-bottom-right-radius: .9rem !important;
+    height: 3.5rem;
+}
+
+#welcome-message input[type="checkbox"]{
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+
+#welcome-message label{
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 16px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+#welcome-message .checkmark{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #DEEAFA;
+    border: 1px solid;
+}
+
+#welcome-message input[type="checkbox"]:checked ~ .checkmark {
+    background-color: #62A2EC;
+    opacity: 1;
+    border: initial;
+}
+
+#welcome-message .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+/* Show the checkmark when checked */
+#welcome-message input:checked ~ .checkmark:after {
+    display: block;
+}
+
+/* Style the checkmark/indicator */
+#welcome-message .checkmark:after {
+    left: 9px;
+    top: 5px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+#reminder-message input[type="checkbox"]{
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+
+#reminder-message label{
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 16px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+#reminder-message .checkmark{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #DEEAFA;
+    border: 1px solid;
+}
+
+#reminder-message input[type="checkbox"]:checked ~ .checkmark {
+    background-color: #62A2EC;
+    opacity: 1;
+    border: initial;
+}
+
+#reminder-message .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+/* Show the checkmark when checked */
+#reminder-message input:checked ~ .checkmark:after {
+    display: block;
+}
+
+/* Style the checkmark/indicator */
+#reminder-message .checkmark:after {
+    left: 9px;
+    top: 5px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+.table-shadow {
+    box-shadow: 5px 5px 5px lightgray;
+}
+
+
+.v-center-sm{
+    line-height: 8vh;
+    height: 8vh;
+}
+
+.v-center-sm h1, .v-center-sm h2, .v-center-sm h3, .v-center-sm h4, .v-center-sm h5 {
+    position: relative;
+    top: 4vh;
+    left: 50vw;
+    transform: translateX(-50%) translateY(-50%);
+}
