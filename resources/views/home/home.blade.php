@@ -7,11 +7,11 @@
         @component('layouts.image_gallery',['gallery_id' => 'firstshopping-banner',
         'data_array' => [
             [
-                'src' => '../assets/home_logo.png',
+                'src' => 'assets/home_logo.png',
                 'href' => null
             ],
             [
-                'src' => '../assets/banner_question.png',
+                'src' => 'assets/banner_question.png',
                 'href' => route('users.info.questions')
             ]
         ],

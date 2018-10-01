@@ -86,7 +86,7 @@
     </main>
 
 </div>
-<script src="{{ asset('/js/app.js') }}"></script>
+<script src="{{ asset('public/js/app.js') }}"></script>
 @if(isset($page) && $page == "tangqi_index")
     <script>
         document.getElementById('testing-page').play();

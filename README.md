@@ -1,2 +1,0 @@
-# daigou
-init
